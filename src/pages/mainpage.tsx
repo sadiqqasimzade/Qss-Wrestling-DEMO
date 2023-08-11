@@ -13,15 +13,15 @@ const datas: DataType[] = [
 export default function MainPage() {
     const [data, setData] = useState<DataType>(hajiData)
 
-    
+
     return (
         <div className='bg-gray-100 min-h-screen dark:bg-gray-700'>
             <div className='py-3 px-10 dark:text-white flex flex-col gap-5'>
                 <div className="flex justify-center">
                     <div className="flex flex-col max-w-md">
                         <p className="font-bold">Choose your fighter</p>
-                        <select onChange={() => {
-                            const selected = datas.find(value => value.name === event.target.value)
+                        <select onChange={(event) => {
+                            const selected = datas.find(value => value.name === event!.target!.value as string)
                             if (selected) {
                                 setData(selected)
                             }
