@@ -57,19 +57,19 @@ const takedownData_Haji: IMappable[] = [
 const durabilityData_Haji: IMappable[] = [
     {
         indicator: 'Successful defences',
-        value: 74,
-        persentage:12
+        value: 56,
+        persentage:75
     },
     {
         indicator: "Protection zone points",
-        value: 90,
-        persentage:100
+        value: 0,
+        persentage:0
     }
 ]
 
 const offenceData_Haji: IMappable[] = [
     {
-        indicator: "Protection zone counts",
+        indicator: "Protection zone rate",
         value: 1,
         persentage:67
     },

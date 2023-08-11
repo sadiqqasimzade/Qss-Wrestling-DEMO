@@ -57,19 +57,19 @@ const takedownData_Abubakar: IMappable[] = [
 const durabilityData_Abubakar: IMappable[] = [
     {
         indicator: 'Successful defences',
-        value: 74,
-        persentage: 41
+        value: 66,
+        persentage: 80
     },
     {
         indicator: "Protection zone points",
-        value: 90,
-        persentage:87
+        value: 16.6,
+        persentage:40
     }
 ]
 
 const offenceData_Abubakar: IMappable[] = [
     {
-        indicator: "Protection zone counts",
+        indicator: "Protection zone rate",
         value: 0.89,
         persentage:37
     },
